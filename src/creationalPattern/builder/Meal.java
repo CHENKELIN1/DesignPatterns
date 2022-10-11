@@ -21,9 +21,8 @@ public class Meal {
         return cost;
     }
 
-//    显示套餐信息
-    public void showItems()
-    {
+    //    显示套餐信息
+    public void showItems() {
         items.forEach(item -> {
             System.out.println("item.name() = " + item.name());
             System.out.println("item.price() = " + item.price());
